@@ -15,15 +15,16 @@
         <script src="assets/js/jquery-3.7.1.slim.min.js"></script>
     </head>
     <body>
-        <h1>Ola mundo!</h1>
-        <button class="btn btn-success">teste</button>
-        
+        <form action="UserController" method="post">
+            <input type="text" name="user"/>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
         <script>
-            
-                $(document).ready(function (){
-                    alert("Ola Jquery");
-                });
-            
+
+            $(document).ready(function () {
+
+            });
+
         </script>
     </body>
 </html>
